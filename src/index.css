@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Light Theme Tokens */
+@theme {
+  --color-background: theme(colors.white);
+  --color-background-muted: theme(colors.gray.100);
+  --color-foreground: theme(colors.gray.900);
+  --color-foreground-muted: theme(colors.gray.600);
+  --color-primary: theme(colors.blue.600);
+  --color-primary-hover: theme(colors.blue.700);
+  --color-border: theme(colors.gray.200);
+  --color-ring: theme(colors.blue.300);
+  --color-accent: theme(colors.purple.600);
+  --color-accent-hover: theme(colors.purple.700);
+  --color-destructive: theme(colors.red.600);
+  --color-destructive-hover: theme(colors.red.700);
+  --color-muted: theme(colors.gray.50);
+  --color-card: theme(colors.white);
+  --color-popover: theme(colors.white);
+  --color-input: theme(colors.gray.50);
+}
+
+/* Dark Theme Tokens */
+.dark {
+  --color-background: theme(colors.gray.900);
+  --color-background-muted: theme(colors.gray.800);
+  --color-foreground: theme(colors.gray.100);
+  --color-foreground-muted: theme(colors.gray.400);
+  --color-primary: theme(colors.blue.500);
+  --color-primary-hover: theme(colors.blue.400);
+  --color-border: theme(colors.gray.700);
+  --color-ring: theme(colors.blue.600);
+  --color-accent: theme(colors.purple.400);
+  --color-accent-hover: theme(colors.purple.300);
+  --color-destructive: theme(colors.red.500);
+  --color-destructive-hover: theme(colors.red.400);
+  --color-muted: theme(colors.gray.950);
+  --color-card: theme(colors.gray.800);
+  --color-popover: theme(colors.gray.800);
+  --color-input: theme(colors.gray.700);
+}
+
+button {
+  cursor: pointer;
+}
