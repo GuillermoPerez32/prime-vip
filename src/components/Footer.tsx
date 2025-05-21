@@ -1,5 +1,5 @@
-import { Facebook, Instagram, Twitter, Mail } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Facebook, Instagram, Twitter, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -12,25 +12,39 @@ export default function Footer() {
               Servicio premium de transporte para todas tus necesidades.
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Enlaces Rápidos</h4>
             <div className="space-y-2">
-              <Link to="/services" className="block text-gray-400 hover:text-white">Servicios</Link>
-              <Link to="/fleet" className="block text-gray-400 hover:text-white">Flota</Link>
-              <Link to="/contact" className="block text-gray-400 hover:text-white">Contacto</Link>
+              <Link
+                to="/services"
+                className="block text-gray-400 hover:text-white"
+              >
+                Servicios
+              </Link>
+              <Link
+                to="/fleet"
+                className="block text-gray-400 hover:text-white"
+              >
+                Flota
+              </Link>
+              <Link
+                to="/contact"
+                className="block text-gray-400 hover:text-white"
+              >
+                Contacto
+              </Link>
             </div>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Contacto</h4>
             <div className="space-y-2 text-gray-400">
-              <p>+1 234 567 890</p>
-              <p>info@primevip.com</p>
-              <p>123 Calle Principal, Ciudad</p>
+              <p>+5356713029</p>
+              <p>luisguillermo.rodriguez32@gmail.com</p>
             </div>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Síguenos</h4>
             <div className="flex space-x-4">
@@ -49,11 +63,14 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} PrimeVIP. Todos los derechos reservados.</p>
+          <p>
+            &copy; {new Date().getFullYear()} PrimeVIP. Todos los derechos
+            reservados.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }

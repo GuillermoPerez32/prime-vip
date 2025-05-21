@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Phone, Mail, MapPin, Send } from "lucide-react";
+import { Phone, Mail, Send } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -33,7 +33,7 @@ export default function Contact() {
                 <Phone className="h-6 w-6 text-primary" />
                 <div>
                   <h3 className="font-semibold">Teléfono</h3>
-                  <p className="text-foreground-muted">+1 234 567 890</p>
+                  <p className="text-foreground-muted">+53 56713029</p>
                 </div>
               </div>
 
@@ -41,16 +41,8 @@ export default function Contact() {
                 <Mail className="h-6 w-6 text-primary" />
                 <div>
                   <h3 className="font-semibold">Email</h3>
-                  <p className="text-foreground-muted">info@luxtransport.com</p>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-4">
-                <MapPin className="h-6 w-6 text-primary" />
-                <div>
-                  <h3 className="font-semibold">Dirección</h3>
                   <p className="text-foreground-muted">
-                    123 Calle Principal, Ciudad
+                    luisguillermo.rodriguez32@gmail.com
                   </p>
                 </div>
               </div>

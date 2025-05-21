@@ -11,10 +11,10 @@ export default function Home() {
             'url("https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&q=80")',
         }}
       >
-        <div className="absolute inset-0 bg-[color:var(--color-background-muted)/50]">
+        <div className="absolute inset-0 bg-muted">
           <div className="max-w-7xl mx-auto px-4 h-full flex items-center">
-            <div className="text-[color:var(--color-foreground)]">
-              <h1 className="text-5xl text-[color:var(--color-primary)] font-bold mb-4">
+            <div className="text-foreground">
+              <h1 className="text-5xl text-primary font-bold mb-4">
                 Viaja con Estilo y Comodidad
               </h1>
               <p className="text-xl mb-8">
@@ -23,7 +23,7 @@ export default function Home() {
               </p>
               <Link
                 to="/contact"
-                className="bg-[color:var(--color-primary)] text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-[color:var(--color-primary-hover)] inline-flex items-center"
+                className="bg-primary text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-primary inline-flex items-center"
               >
                 Reserva Ahora
                 <ArrowRight className="ml-2" />
@@ -64,7 +64,7 @@ export default function Home() {
               </p>
               <Link
                 to="/services"
-                className="text-[color:var(--color-primary)] hover:text-[color:var(--color-primary-hover)]"
+                className="text-primary hover:text-primary-hover"
               >
                 Saber más →
               </Link>
@@ -76,7 +76,7 @@ export default function Home() {
               </p>
               <Link
                 to="/services"
-                className="text-[color:var(--color-primary)] hover:text-[color:var(--color-primary-hover)]"
+                className="text-primary hover:text-primary-hover"
               >
                 Saber más →
               </Link>
